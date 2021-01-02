@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.containermain {
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containermain h1 {
+  color: rgb(26, 97, 97);
+  margin: 2rem;
+  font-weight: 500;
+}
+.input {
+  margin-left: 10%;
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: 1px solid teal;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background-color: rgb(53, 170, 170);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.inputcont {
+  display: flex;
+  flex-direction: column;
+}
+.inputcont input[type="submit"] {
+  cursor: pointer;
+  margin: 1rem;
+  background-color: tomato;
+  outline: none;
+  padding: 0.5rem 0.8rem;
+  color: white;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid rgb(156, 56, 39);
+}
+
+.listout {
+  padding: 1rem;
+  margin-top: 20px;
+  list-style: none;
+}
+.listarrange button {
+  cursor: pointer;
+  color: white;
+  margin: 0.5rem;
+  padding: 0.2rem 1rem;
+  border: 1px solid rgb(27, 88, 88);
+  border-radius: 15px;
+  background-color: tomato;
+  outline: none;
+}
+.listarrange {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  background-color: teal;
+  border: 1px solid teal;
+}
+.listarrange li {
+  color: white;
+  margin: 0.5rem;
+  padding: 0.2rem 1rem;
+}
+.listarrange span {
+  color: white;
+  margin: 0.5rem;
+  padding: 0.2rem 1rem;
+}
+
+.inputcont select {
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  outline: none;
+  margin-left: 1rem;
+  background-color: tomato;
+  border: 1px solid rgb(145, 61, 47);
+}
+.completed {
+  text-decoration: line-through;
+  color: rgb(82, 76, 76) !important;
+}
+@media (max-width: 500px) {
+  body {
+    font-size: 62.5%;
+  }
+}
